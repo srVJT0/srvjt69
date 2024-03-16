@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Blog</title>
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Material Design CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        /* Material Design styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            padding-top: 50px; /* Add space for fixed navbar */
+        }
+
+        /* Navbar styles */
+        nav {
+            background-color: #2196F3; /* Material Design primary color */
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main content styles */
+        .container {
+            margin-top: 20px;
+        }
+
+        .post {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .post h2 {
+            color: #2196F3;
+        }
+
+        .post p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i></a></li>
+            <li><a href="#"><i class="fas fa-info-circle"></i></a></li>
+            <li><a href="#"><i class="fas fa-book"></i></a></li>
+            <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content area -->
+    <div class="container">
+        <div class="post">
+            <h2>Introduction to HTML5</h2>
+            <p>HTML5 is the latest version of HTML, the standard markup language for creating web pages and web applications. It introduces new features and elements that improve the structure, semantics, and functionality of web documents.</p>
+            <p>With HTML5, developers can create more interactive and multimedia-rich websites, including animations, audio/video playback, and offline storage capabilities.</p>
+            <p>HTML5 also provides enhanced support for mobile devices, making it easier to develop responsive and mobile-friendly websites.</p>
+        </div>
+
+        <div class="post">
+            <h2>CSS Flexbox Layout</h2>
+            <p>CSS Flexbox is a layout model that allows you to design flexible and responsive web layouts with ease. It provides a more efficient way to distribute space and align items within a container, without relying on floats or positioning hacks.</p>
+            <p>With Flexbox, you can create complex layouts with less code, making it ideal for modern web design projects. It offers powerful features such as flexible resizing, alignment control, and auto-sizing of items.</p>
+            <p>Flexbox is supported by all major web browsers, making it a versatile and widely adopted layout solution for web developers.</p>
+        </div>
+    </div>
+
+    <!-- Font Awesome JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <!-- Materialize JavaScript (optional) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+      </html>
