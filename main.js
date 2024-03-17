@@ -1,41 +1,41 @@
 const featuresList = [
   {
-    icon: "images/create-task-icon.svg",
+    icon: "create-task-icon.svg",
     title: "Intuitive Task Creation",
     description:
       "Easily create and manage tasks with a simple and user-friendly interface.",
   },
 
   {
-    icon: "images/reminders-icon.svg",
+    icon: "reminders-icon.svg",
     title: "Smart Reminders",
     description:
       "Set reminders to ensure you never miss an important deadline.",
   },
 
   {
-    icon: "images/collaborations-icon.svg",
+    icon: "collaborations-icon.svg",
     title: "Collaboration Tools",
     description:
       "Collaborate with team members, assign tasks, and track progress together.",
   },
 
   {
-    icon: "images/progress-icon.svg",
+    icon: "progress-icon.svg",
     title: "Progress Tracking",
     description:
       "Monitor your progress, track completed tasks, and stay motivated.",
   },
 
   {
-    icon: "images/deadline-icon.svg",
+    icon: "deadline-icon.svg",
     title: "Deadline Management",
     description:
       "Set due dates and track deadlines to stay on top of your commitments.",
   },
 
   {
-    icon: "images/file-icon.svg",
+    icon: "file-icon.svg",
     title: "File Attachments",
     description:
       "Attach files to tasks for seamless collaboration and easy access.",
@@ -46,21 +46,21 @@ const testimonialsList = [
   {
     review:
       "Since I started using the app, my productivity has skyrocketed. The reminder feature keeps me on track and ensures that I never miss an important task or deadline. Highly recommended!",
-    image: "images/testimonial1.png",
+    image: "testimonial1.png",
     name: "John Smith",
     designation: "Tech Lead, Amazon",
   },
   {
     review:
       "This app has completely changed the way I manage my tasks. The advanced features and intuitive interface make it a joy to use. I can't imagine my work life without it!",
-    image: "images/testimonial2.png",
+    image: "testimonial2.png",
     name: "Sarah Johnson",
     designation: "Product Manager, Google",
   },
   {
     review:
       "I've tried several task management apps, but this one takes the cake. The customizable workflows and seamless collaboration features have greatly improved my team's efficiency.",
-    image: "images/testimonial3.png",
+    image: "testimonial3.png",
     name: "Emily Davis",
     designation: "Project Manager, Microsoft",
   },
@@ -144,7 +144,7 @@ displayFeatures();
 
 const displayTestimonial = () => {
   const html = `<span class="quote-icon">
-  <img src="images/quote-icon.svg" alt="" />
+  <img src="quote-icon.svg" alt="" />
 </span>
 
 <p class="review">
@@ -197,7 +197,7 @@ const displayPricing = () => {
     const featuresHTML = p.features
       .map(
         (f) =>
-          `<li><span class='icon'><img src='images/check-icon.svg'/></span>${f}</li>`
+          `<li><span class='icon'><img src='check-icon.svg'/></span>${f}</li>`
       )
       .join("");
 
